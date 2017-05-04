@@ -36,6 +36,6 @@ class StackTests(unittest.TestCase):
         dumpmock.assert_called_with(self.stack.data, ANY, 0)
 
 if __name__ == '__main__':
-    unittest.main()
     with open("test.txt", "w") as ofile:
         ofile.write("test")
+    unittest.main()
